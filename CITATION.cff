@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "引用本文时请使用以下条目。"
+title: "微流控如何\"造\"出合成组织：从芯片上的通道，到会呼吸、会搏动、会长血管的活组织"
+abstract: >-
+  一份关于微流控与合成组织的图文科普长文：从层流、扩散、液滴三个物理内核出发，
+  走过微流控纺丝、液滴组装、生物打印、器官芯片四条技术路线，最后落到血管化、
+  合成形态发生与监管转化。
+type: generic
+authors:
+  - given-names: Jiantao
+    family-names: Zhao
+    website: "https://github.com/Jiantao-Zhao"
+date-released: "2026-10-19"
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+url: "https://jiantao-zhao.github.io/microfluidics-synthetic-tissue/"
+repository-code: "https://github.com/Jiantao-Zhao/microfluidics-synthetic-tissue"
+keywords:
+  - 微流控
+  - microfluidics
+  - 合成组织
+  - synthetic tissue
+  - 器官芯片
+  - organ-on-a-chip
+  - 类器官
+  - organoid
+  - 血管化
+  - 科普
+preferred-citation:
+  type: generic
+  title: "微流控如何\"造\"出合成组织"
+  authors:
+    - given-names: Jiantao
+      family-names: Zhao
+  year: 2026
+  url: "https://jiantao-zhao.github.io/microfluidics-synthetic-tissue/"

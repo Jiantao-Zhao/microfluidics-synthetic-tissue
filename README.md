@@ -6,6 +6,10 @@
 
 **在线阅读：** https://jiantao-zhao.github.io/microfluidics-synthetic-tissue/
 
+[![License: CC BY 4.0](https://img.shields.io/badge/%E6%AD%A3%E6%96%87-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: MIT](https://img.shields.io/badge/%E4%BB%A3%E7%A0%81-MIT-blue.svg)](LICENSE)
+[![第三方式素材](https://img.shields.io/badge/%E9%85%8D%E5%9B%BE-%E5%90%84%E8%87%AA%E5%8E%9F%E8%AE%B8%E5%8F%AF%E8%AF%81-orange.svg)](source/IMAGE_CREDITS.md)
+
 ---
 
 ## 内容
@@ -33,6 +37,37 @@ source/*.md                   正文 Markdown 源
 source/IMAGE_CREDITS.md       配图的作者与许可证
 source/f0*.py                 6 张原理图的 Matplotlib 绘图脚本
 source/build_html.py          Markdown → 单文件 HTML 的构建脚本
+```
+
+## 许可
+
+本项目**分层许可**，完整条款见 [`LICENSE`](LICENSE)。
+
+| 范围 | 许可 | 要点 |
+|---|---|---|
+| 正文文字、图 1–6 自绘原理图、Markdown 源 | **CC BY 4.0** | 可转载/翻译/改编/商用；须署名、标标题、给链接、注明改动 |
+| `source/*.py` 绘图与构建脚本 | **MIT** | 保留版权与许可声明即可 |
+| 14 张 Wikimedia Commons 摄影与示意图 | **各自原许可证** | CC0 / CC BY / CC BY-SA，逐张见 `source/IMAGE_CREDITS.md` |
+
+**转载时建议这样署名：**
+
+> Jiantao Zhao，《微流控如何"造"出合成组织》，CC BY 4.0。
+> 来源：https://jiantao-zhao.github.io/microfluidics-synthetic-tissue/
+
+CC BY 4.0 的四项要求是**署名、标注标题、给出许可证链接、说明是否改动**；同时**不得暗示原作者背书**，**不得附加额外限制**。注意本文的 CC BY 4.0 **不覆盖**引自 Wikimedia Commons 的配图——那是"我引的图"，不是"我画的图"。
+
+## 引用
+
+仓库内含 [`CITATION.cff`](CITATION.cff)，GitHub 页面右上角 **"Cite this repository"** 可直接导出 BibTeX / APA。
+
+```bibtex
+@misc{zhao2026microfluidics,
+  author = {Zhao, Jiantao},
+  title  = {微流控如何"造"出合成组织},
+  year   = {2026},
+  url    = {https://jiantao-zhao.github.io/microfluidics-synthetic-tissue/},
+  note   = {CC BY 4.0}
+}
 ```
 
 ## 配图与许可

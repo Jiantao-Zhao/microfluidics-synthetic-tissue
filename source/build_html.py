@@ -117,6 +117,7 @@ page = f"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>微流控如何"造"出合成组织 · 图文科普长文</title>
 <meta name="description" content="基于微流控合成合成组织（synthetic tissues）的图文科普长文：物理原理、四条技术路线、血管化、合成形态发生、器官芯片与产业化挑战。">
+<link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
 <style>
 {css}
 </style>
@@ -146,9 +147,10 @@ page = f"""<!DOCTYPE html>
 </div>
 
 <footer><div class="fi">
-  <p><b>关于本文</b>　本文为科普长文，6 张原理图由本文用 Matplotlib 自绘（其中 Turing 斑图为 Gray–Scott 模型的实时数值解）；其余摄影与示意图素材来自 Wikimedia Commons，作者与许可证详见随附的 <code>assets/IMAGE_CREDITS.md</code>。</p>
+  <p><b>关于本文</b>　本文为科普长文，6 张原理图由本文用 Matplotlib 自绘（其中 Turing 斑图为 Gray–Scott 模型的实时数值解）；其余摄影与示意图素材来自 Wikimedia Commons，作者与许可证详见随附的 <code>source/IMAGE_CREDITS.md</code>。</p>
   <p><b>关于引用</b>　全部文献 DOI 均已逐条核对。文中标注并修正了若干流传较广的错误引用与过度简化的说法（例如"挤出剪切超过 5–10 kPa 细胞就会死"），详见文末说明。</p>
   <p><b>生成方式</b>　Markdown 源文件经 pandoc 编译为自包含单文件 HTML，图片以 base64 内嵌，可离线阅读。</p>
+  <p><b>许可</b>　本文文字与图 1–6 采用 <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a> 许可：转载、翻译、改编、商用均可，须署名 <i>Jiantao Zhao</i>、标注标题《微流控如何“造”出合成组织》、给出<a href="https://jiantao-zhao.github.io/microfluidics-synthetic-tissue/">原文链接</a>与许可证链接，改动处须注明；不得暗示作者背书，不得附加额外限制。绘图与构建脚本另按 MIT 许可。文中 14 张来自 Wikimedia Commons 的摄影与示意图不在该许可范围内，各自按原许可证使用（含 CC0 / CC BY / CC BY-SA），逐张署名见 <a href="https://github.com/Jiantao-Zhao/microfluidics-synthetic-tissue/blob/main/source/IMAGE_CREDITS.md">IMAGE_CREDITS.md</a>。</p>
 </div></footer>
 
 </body>
