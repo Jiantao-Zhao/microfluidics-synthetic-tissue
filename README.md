@@ -7,7 +7,7 @@
 **在线阅读：** https://jiantao-zhao.github.io/microfluidics-synthetic-tissue/
 
 [![License: CC BY 4.0](https://img.shields.io/badge/%E6%AD%A3%E6%96%87-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![License: MIT](https://img.shields.io/badge/%E4%BB%A3%E7%A0%81-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/%E4%BB%A3%E7%A0%81-MIT-blue.svg)](LICENSE-SCOPE.md)
 [![第三方式素材](https://img.shields.io/badge/%E9%85%8D%E5%9B%BE-%E5%90%84%E8%87%AA%E5%8E%9F%E8%AE%B8%E5%8F%AF%E8%AF%81-orange.svg)](source/IMAGE_CREDITS.md)
 
 ---
@@ -33,6 +33,9 @@
 
 ```
 index.html                    单文件站点（图片全部内嵌为 data URI，离线可用）
+LICENSE                       CC BY 4.0 法律文本全文
+LICENSE-SCOPE.md              分层许可的范围说明（哪些部分适用哪一条款）
+CITATION.cff                  引用元数据（GitHub「Cite this repository」）
 source/*.md                   正文 Markdown 源
 source/IMAGE_CREDITS.md       配图的作者与许可证
 source/f0*.py                 6 张原理图的 Matplotlib 绘图脚本
@@ -41,7 +44,9 @@ source/build_html.py          Markdown → 单文件 HTML 的构建脚本
 
 ## 许可
 
-本项目**分层许可**，完整条款见 [`LICENSE`](LICENSE)。
+本项目**分层许可**：CC BY 4.0 法律文本见 [`LICENSE`](LICENSE)，各部分的适用范围与代码许可见 [`LICENSE-SCOPE.md`](LICENSE-SCOPE.md)。
+
+> GitHub 侧栏的 License 标识取自 `LICENSE`，因此显示为 **CC BY 4.0**；这不代表代码也是 CC BY——代码走 MIT，第三方配图仍归原作者。
 
 | 范围 | 许可 | 要点 |
 |---|---|---|
